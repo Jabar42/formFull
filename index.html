@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form name="sentMessage" id="contactForm" novalidate>
+
+
+                                <div class="form-group">
+                                    <input type="text"  placeholder="Tu Nombre *" id="name" required data-validation-required-message="Porfavor introduzca su nombre.">
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" placeholder="Tu Correo *" id="email" required data-validation-required-message="Porfavor introduzca su correo.">
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel"  placeholder="Tu Telefono *" id="phone" required data-validation-required-message="Porfavor introduzca su telefono.">
+                                    <p class="help-block"></p>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <textarea  placeholder="Tu Mensaje *" id="message" required data-validation-required-message="Porfavor introduzca un mensaje."></textarea>
+                                    <p class="help-block"></p>
+                                </div>
+
+
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Enviar</button>
+
+
+                    </form>
+
+
+
+
+                    <!-- jQuery -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+
+  </body>
+</html>
